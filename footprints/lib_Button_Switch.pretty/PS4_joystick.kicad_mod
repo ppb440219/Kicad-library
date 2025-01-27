@@ -165,8 +165,8 @@
 		(uuid "d29b74f6-d5ad-4ae0-895e-b8c143459d56")
 	)
 	(fp_line
-		(start -1.9 7.62)
-		(end -0.6 7.62)
+		(start -3.175 8.825)
+		(end -3.175 9.725)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -175,8 +175,18 @@
 		(uuid "8d7c8aad-0bba-4c98-ae0c-b3362e91b2a8")
 	)
 	(fp_line
-		(start -0.35 7)
-		(end 0.8 7.6)
+		(start -3.175 10.7375)
+		(end -3.175 11.5125)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11298148-1c25-4d5b-92d3-feaf37ef0060")
+	)
+	(fp_line
+		(start -2.675 9.8)
+		(end -3.175 10.7375)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -185,14 +195,24 @@
 		(uuid "542605f2-8f9a-42bf-999b-2edc85240278")
 	)
 	(fp_line
-		(start 0.8 7.6)
-		(end 1.85 7.6)
+		(start -1.925 7.6)
+		(end 1.9 7.6)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "11298148-1c25-4d5b-92d3-feaf37ef0060")
+		(uuid "067fd21b-acaa-4f78-8c46-818956197039")
+	)
+	(fp_line
+		(start -1.9125 12.7)
+		(end 1.9125 12.7)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a101f635-b507-440f-ba34-7830240f3f14")
 	)
 	(fp_line
 		(start 4.62 -11.66)
@@ -294,6 +314,28 @@
 		(layer "F.SilkS")
 		(uuid "890e6772-a7ce-48dc-b1de-c220587481b2")
 	)
+	(fp_arc
+		(start -5.96538 11.550508)
+		(mid -12.63243 -3.069479)
+		(end 0.000001 -13)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06038952-e019-4e81-b85c-febfce882d22")
+	)
+	(fp_arc
+		(start 0 -13)
+		(mid 12.632431 -3.069479)
+		(end 5.965381 11.550508)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fbd5e07-b1d5-436f-b125-3dd7c8369d98")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 2.420744 0)
@@ -304,17 +346,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "83f31943-c323-48c4-b38a-96b3d277b399")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 13 0)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "bf7b97bd-b88d-4ea8-be29-0a4bf5c26fe1")
 	)
 	(fp_line
 		(start -9.8 -3.9)
